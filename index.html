@@ -14,8 +14,12 @@
         <nav>
             <span><img width="53" src="assets/images/logo.svg" alt=""></span>
             <div>
-                <button class="btn">English</button>
-                <button class="btn btn-red-sm">Sign In</button>
+                <select id="language-select" class="btn">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+                
+                <button class=" btn-red-sm"><a href="signin.html">Sign In</a></button>
             </div>
         </nav>
         <div class="box">
@@ -24,10 +28,10 @@
             <span>Enjoy big movies, hit series and more from ₹ 149.</span>
             <span>Join today. Cancel anytime.</span>
             <span>Ready to watch? Enter your email to create or restart your membership.</span>
-            <div class="hero-buttons">
-                <input type="text" placeholder="Email Address">
-                <button class="btn btn-red">Get Started &gt;</button>
-            </div>
+            <form class="hero-buttons">
+                <input type="email" placeholder="Email Address">
+                <button type="submit" class="btn btn-red">Get Started &gt;</button>
+            </form>
         </div>
 
         <div class="separation"></div>
@@ -162,6 +166,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

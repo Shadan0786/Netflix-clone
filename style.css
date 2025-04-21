@@ -99,6 +99,20 @@ nav button {
 
 }
 
+select.btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1000;
+}
+select option{
+    color: black;
+}
+
 .btn-red {
     background-color: red;
     color: white;
@@ -111,6 +125,18 @@ nav button {
 .btn-red-sm {
     background-color: red;
     color: white;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1000;
+    
+}
+
+.btn-red-sm a{
+    color: white;
+    text-decoration: none;
 }
 
 .hero-buttons {
@@ -119,15 +145,17 @@ nav button {
     justify-content: center;
     gap: 16px;
 }
-
-.main input {
-    padding: 7px 101px 8px 14px;
+.hero-buttons input{
+    padding: 7px 14px 8px 14px;
     color: white;
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
+    width: 255px;
 }
+
+
 
 .first {
     display: flex;
